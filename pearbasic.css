@@ -1,0 +1,91 @@
+body{
+    font-family:larsseit;
+    font-size:20px;
+    text-align: center;
+}
+
+#joinbox
+{
+    margin:auto;
+    border-style:solid;
+    width:40%;
+    text-align:center;
+    background-color: white;
+    color:black;
+}
+
+#joinbox:hover
+{
+    border-style:solid;
+    width:40%;
+    border-color: #8bb69a;
+    background-color: #8bb69a ;
+    color: #273628;
+}
+
+.signlink a
+{   color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signlink a:hover
+{
+    border-style:solid;
+    width:40%;
+    border-color: #8bb69a;
+    background-color: #8bb69a ;
+    color: #273628;
+}
+
+body .log
+{
+    font-size: 14;
+}
+
+#loginbox
+{
+    margin:auto;
+    text-align: left;
+    border-style: solid;
+    border-color:#273628;
+    width:30%
+}
+
+#loginbox p{
+    padding:10px;
+}
+
+#loginbox h3
+{
+    text-align:center;
+}
+
+
+#loginbox img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#login p
+{
+    margin:auto;
+    width:80%
+}
+
+
+#pearinfo
+{
+    padding:30px;
+}
+
+#signupbox
+{
+    margin:auto;
+    border-style:solid;
+    width:40%;
+    text-align:center;
+}
