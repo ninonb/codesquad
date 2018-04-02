@@ -3,26 +3,37 @@
     <head>
         <meta charset="utf-8">
         <title>Log in, Locate</title>
-        <link rel="stylesheet", type="text/css", href="pearbasic.css">
+        <link rel="stylesheet", type="text/css", href="styles/pearbasic.css">
     </head>
     <body>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html"> home </a></li>
+                <li><a href="X"> bulletin </a></li>
+                <li><a href="X"> messages </a></li>
+                <li><a href="pearfaq.html"> FAQ </a></li>
+            </ul>
+        </div>
+
+        <br />
         <div class="log", id="login">
+            <img src="img/pearlogo.png" alt="Pear" height=10% width=10%>
+
             <div id="loginbox", class="signlink">
-                <img src="pearlogo.png" alt="Pear" height=10% width=10%>
-                <h3>Log in</h3>
-                <p>username:</p>
-                <p>password:</p>
+                <form>
+                    <h3>Log in</h3>
+                    <p>username:</p>
+                    <input type="text" name="username">
+                    <br />
+                    <p>password:</p>
+                    <input type="text" name="password">
+
+                    <br />
+                     <input type="submit" value="Submit">
+                </form>
                 <h3> <a href="pearsignup.html"> Have an invite but no account yet? Sign up here </a> </h3>
             </p>
-        </div>
-        <span id="pearinfo" class="signlink">
-            <p>
-                When you sign up and select a community, an alert will be sent out to the contacts of that group.
-                Once they receive and accept your invite, you may message one another, though we do caution users from sharing private information with strangers.
-
-                Pear recognizes the importance of the safety and anonymity of our community members. We do not track users or collect information on them for marketing, and we encourage members to educate themselves and one another on cybersecurity, or through <a href="http://hackblossom.org/cybersecurity/"> resources </a> such as this guide.
-            </p>
-        </span>
+            </div>
     </div>
     </body>
 </html>
