@@ -1,12 +1,38 @@
 @font-face {
     font-family: Larsseit;
-    src: url(Larsseit.ttf);
+    src: url(fonts/Larsseit.ttf);
 }
 
 body{
     font-family:Larsseit;
     font-size:20px;
     text-align: center;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin:10px;
+    padding:10px;
+    width:60%;
+}
+
+.nav li {
+    display:inline;
+    padding:10px;
+    float:left;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #8bb69a;
+}
+
+form{
+        margin:auto;
+        width:40%;
 }
 
 #joinbox
@@ -48,13 +74,27 @@ body .log
     font-size: 14;
 }
 
-#loginbox
+#log img
+{   padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#log
 {
     margin:auto;
-    text-align: left;
+    text-align: center;
+    width:40%
+    padding:10px;
+}
+
+#loginbox{
     border-style: solid;
     border-color:#273628;
-    width:30%
+    margin:auto;
+    width:30%;
 }
 
 #loginbox p{
@@ -66,22 +106,6 @@ body .log
     text-align:center;
 }
 
-
-#loginbox img
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-
-#login p
-{
-    margin:auto;
-    width:80%
-}
-
-
 #pearinfo
 {
     padding:30px;
@@ -91,6 +115,22 @@ body .log
 {
     margin:auto;
     border-style:solid;
-    width:40%;
+    width:50%;
     text-align:center;
+    padding:10px;
+}
+
+input[type=submit]{
+    font-family: Larsseit;
+    display: inline-block;
+    border:0;
+}
+
+input[type=submit]:hover{
+    background:#8bb69a;
+}
+
+#faq{
+        margin:auto;
+        width:80%
 }
