@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Sign up</title>
+        <title>Invite new members</title>
+        <link rel="stylesheet" type="text/css"  href="styles/pearbasic.css">
 
     </head>
     <body>
@@ -18,22 +19,13 @@
         <div id="signupbox" class="signlink">
 
         <img src="img/pearlogo.png" alt="Pear" height=10% width=10%>
-
-        <form name="registration" id="registration" method = "post">
+        <form name="inviteNew" id="inviteNew" method = "post">
             name: <input type="text" name="name" id="name"> <br />
             email: <input type="text" name="email" id="email"> <br />
-            city: <input type="text" name="city" id="city"> <br/>
-            state: <input type="text" name="state" id="state"> <br/>
-            sign up code: <input type="text" name="code" id="code"> <br />
-            password: <input type="text" name="password" id="password"> <br />
-
+            city: <input type="text" name="city" id="city"> <br />
+            state: <input type="text" name="state" id="state"> <br />
             <br />
              <input type="submit" value="submit" onclick="validateForm()">
 
         </form>
       </div>
-
-      <script type="text/javascript" src="pear_registration.js"></script>
-    </body>
-</html>
-
